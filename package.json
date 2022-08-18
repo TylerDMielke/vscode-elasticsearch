@@ -1,0 +1,25 @@
+{
+  "name": "vscode-elasticsearch",
+  "displayName": "VSCode Elasticsearch",
+  "description": "Syntax highlighting for Elasticsearch's DSL",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "elasticsearch",
+      "aliases": ["Elasticsearch", "elasticsearch"],
+      "extensions": [".es"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "elasticsearch",
+      "scopeName": "source.es",
+      "path": "./syntaxes/elasticsearch.tmLanguage.json"
+    }]
+  }
+}
