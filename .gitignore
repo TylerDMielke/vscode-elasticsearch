@@ -1,10 +1,11 @@
 node_modules/
 bower_components/
-*.log
-
 build/
 dist/
+test-files/
 
 *quickstart.md
+
 *.code-workspace
-test-files/
+*.log
+*.vsix
