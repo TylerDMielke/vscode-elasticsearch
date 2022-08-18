@@ -4,6 +4,11 @@ All notable changes to the "elasticsearch-lang" extension will be documented in 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## Unreleased
+- N/a
 
-- Initial release
+
+## v0.0.1 2022-087-18
+
+### Added 
+- Basic syntax highlighting
